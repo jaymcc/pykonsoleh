@@ -13,7 +13,7 @@ print k.getServices()
 
 # add a domain to the konsoleH
 registrant = {
-                'selected_contact':'CONTACT352638',
+                'selected_contact':'contactID',
 		'category':'legal',
 		'title':'Mr',
 		'first_name':'Joe',
