@@ -1,7 +1,7 @@
 # pykonsoleh
 pseudo api for hetzner.co.za's konsoleH 
 
-Needed to move several hundred domains to a Hetzner Dedicated Managed Server, and to my surprise found that there is no API, so I wrote a class to interface with the web panel to get it done. I've only implemented the peices that I needed, so it is in no way feature complete, but if there's interest I'll invest more time in adding functionality.
+Needed to move several hundred domains to a Hetzner Dedicated Managed Server, and to my surprise found that there is no API, so I wrote a class to interface with the web panel to get it done. I've only implemented the peices that I needed, so it is in no way feature complete, and has only been tested for our specific use case. If there's interest I'll invest more time in improving the library.
 
 ```
 from pykonsoleh import pykonsoleh
