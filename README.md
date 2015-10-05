@@ -24,5 +24,5 @@ add= [
         'www.mydomain.co.za.    3600    IN      CNAME   web3.otherdomain.co.za.',
         'derp.mydomain.co.za.   86400   IN      A       10.0.0.1'
         ]
-l = k.importZone('mydomain.co.za','domainID','PackageName','dediHostname','dediID',add=add)
+k.importZone('mydomain.co.za','domainID','PackageName','dediHostname','dediID',add=add)
 ```
