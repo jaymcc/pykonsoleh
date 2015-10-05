@@ -12,7 +12,23 @@ k.login('myemail@domain.com','MyKonsolHPassword')
 print k.getServices()
 
 # add a domain to the konsoleH
-k.transferDomain('mydomain.co.za')
+registrant = {
+                'selected_contact':'CONTACT352638',
+		'category':'legal',
+		'title':'Mr',
+		'first_name':'Joe',
+		'surname':'Soap',
+		'company_name':'ACME',
+		'street': 'PO Box 123',
+		'suburb':'Brooklyn',
+		'postal_code':'7405',
+		'city':'Cape Town', 
+		'country':'ZA',
+		'state':'',
+		'telephone':'+27 21 123 1234',
+		'email':'dns-admin@mydomain.com'
+	}
+k.transferDomain('mydomain.co.za',registrant)
 
 # assign a domain to a dedicated server
 k.assignDomaintoDedi('mydomain.co.za','domainID')
