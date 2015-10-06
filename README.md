@@ -31,7 +31,7 @@ registrant = {
 k.transferDomain('mydomain.co.za',registrant)
 
 # assign a domain to a dedicated server
-k.assignDomaintoDedi('mydomain.co.za','domainID')
+k.assignDomaintoDedi('mydomain.co.za','domainID','managedID','managedHost')
 
 # import zone file - keeps ns, soa and autodiscover records as is
 add= [
