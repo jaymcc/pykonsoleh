@@ -65,6 +65,7 @@ class pykonsoleh:
 	self.cookies = cookies
 
     def transferDomain(self,domain):
+    	url = 'https://secure.konsoleh.co.za/controller/order_controller.php'
 	payload = {
 		'step':'choose_product',
 		'product':2,
