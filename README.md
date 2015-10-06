@@ -31,7 +31,7 @@ registrant = {
 k.transferDomain('mydomain.co.za',registrant)
 
 # assign a domain to a dedicated server
-k.assignDomaintoDedi('mydomain.co.za','domainID','managedID','managedHost')
+k.assignDomaintoDedi('mydomain.co.za','domainID','managedID','managedHostname')
 
 # import zone file - keeps ns, soa and autodiscover records as is
 add= [
@@ -40,5 +40,5 @@ add= [
         'www.mydomain.co.za.    3600    IN      CNAME   web3.otherdomain.co.za.',
         'derp.mydomain.co.za.   86400   IN      A       10.0.0.1'
         ]
-k.importZone('mydomain.co.za','domainID','PackageName','dediHostname','dediID',add=add)
+k.importZone('mydomain.co.za','domainID','PackageName','managedHostname','managedID',add=add)
 ```
